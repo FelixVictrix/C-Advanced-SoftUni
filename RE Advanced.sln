@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Stacks and Queues - Lab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Reverse a String", "1. Reverse a String\1. Reverse a String.csproj", "{EC370A46-7181-4EF9-8850-FC75E3F7954D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Stack Sum", "2. Stack Sum\2. Stack Sum.csproj", "{B849ED28-295A-42A4-AB6C-AE18496D0012}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{EC370A46-7181-4EF9-8850-FC75E3F7954D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC370A46-7181-4EF9-8850-FC75E3F7954D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC370A46-7181-4EF9-8850-FC75E3F7954D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B849ED28-295A-42A4-AB6C-AE18496D0012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B849ED28-295A-42A4-AB6C-AE18496D0012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B849ED28-295A-42A4-AB6C-AE18496D0012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B849ED28-295A-42A4-AB6C-AE18496D0012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC370A46-7181-4EF9-8850-FC75E3F7954D} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
+		{B849ED28-295A-42A4-AB6C-AE18496D0012} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
