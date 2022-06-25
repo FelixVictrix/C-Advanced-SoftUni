@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{69504686-C858-4F38-B668-FD3E4C05A7B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Stacks and Queues - Lab", "03. Stacks and Queues - Lab", "{27893AF9-B6A9-4CA0-A822-4A4DFA59710C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Reverse a String", "1. Reverse a String\1. Reverse a String.csproj", "{8436F425-49D5-425A-A12C-EA78CE9E7025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69504686-C858-4F38-B668-FD3E4C05A7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69504686-C858-4F38-B668-FD3E4C05A7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69504686-C858-4F38-B668-FD3E4C05A7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69504686-C858-4F38-B668-FD3E4C05A7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8436F425-49D5-425A-A12C-EA78CE9E7025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8436F425-49D5-425A-A12C-EA78CE9E7025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8436F425-49D5-425A-A12C-EA78CE9E7025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8436F425-49D5-425A-A12C-EA78CE9E7025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8436F425-49D5-425A-A12C-EA78CE9E7025} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
+	EndGlobalSection
+EndGlobal
