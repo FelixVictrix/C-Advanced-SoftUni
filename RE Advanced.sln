@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Matching Brackets", "4. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matching Brackets", "4. Matching Brackets\4. Matching Brackets.csproj", "{B38648F5-87CA-4010-B694-57A0A8F8E41E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Print Even Numbers", "5. Print Even Numbers\5. Print Even Numbers.csproj", "{AA151081-A399-409F-A746-BE54916601C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{B38648F5-87CA-4010-B694-57A0A8F8E41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B38648F5-87CA-4010-B694-57A0A8F8E41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B38648F5-87CA-4010-B694-57A0A8F8E41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA151081-A399-409F-A746-BE54916601C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA151081-A399-409F-A746-BE54916601C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA151081-A399-409F-A746-BE54916601C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA151081-A399-409F-A746-BE54916601C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{8DF9C59F-760A-49E4-98AC-DF7C5BCA91D9} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
 		{21CDAF08-9E8A-489A-8DCB-C545EFA41B37} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
 		{B38648F5-87CA-4010-B694-57A0A8F8E41E} = {21CDAF08-9E8A-489A-8DCB-C545EFA41B37}
+		{AA151081-A399-409F-A746-BE54916601C8} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
