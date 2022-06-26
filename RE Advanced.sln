@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Stacks and Queues - Lab", "03. Stacks and Queues - Lab", "{27893AF9-B6A9-4CA0-A822-4A4DFA59710C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Reverse a String", "1. Reverse a String\1. Reverse a String.csproj", "{EC370A46-7181-4EF9-8850-FC75E3F7954D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Reverse a String", "1. Reverse a String\1. Reverse a String.csproj", "{EC370A46-7181-4EF9-8850-FC75E3F7954D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Stack Sum", "2. Stack Sum\2. Stack Sum.csproj", "{B849ED28-295A-42A4-AB6C-AE18496D0012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Stack Sum", "2. Stack Sum\2. Stack Sum.csproj", "{B849ED28-295A-42A4-AB6C-AE18496D0012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Simple Calculator", "3. Simple Calculator\3. Simple Calculator.csproj", "{8DF9C59F-760A-49E4-98AC-DF7C5BCA91D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Simple Calculator", "3. Simple Calculator\3. Simple Calculator.csproj", "{8DF9C59F-760A-49E4-98AC-DF7C5BCA91D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Matching Brackets", "4. Matching Brackets", "{21CDAF08-9E8A-489A-8DCB-C545EFA41B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matching Brackets", "4. Matching Brackets\4. Matching Brackets.csproj", "{B38648F5-87CA-4010-B694-57A0A8F8E41E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{8DF9C59F-760A-49E4-98AC-DF7C5BCA91D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DF9C59F-760A-49E4-98AC-DF7C5BCA91D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DF9C59F-760A-49E4-98AC-DF7C5BCA91D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38648F5-87CA-4010-B694-57A0A8F8E41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38648F5-87CA-4010-B694-57A0A8F8E41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38648F5-87CA-4010-B694-57A0A8F8E41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38648F5-87CA-4010-B694-57A0A8F8E41E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +51,8 @@ Global
 		{EC370A46-7181-4EF9-8850-FC75E3F7954D} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
 		{B849ED28-295A-42A4-AB6C-AE18496D0012} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
 		{8DF9C59F-760A-49E4-98AC-DF7C5BCA91D9} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
+		{21CDAF08-9E8A-489A-8DCB-C545EFA41B37} = {27893AF9-B6A9-4CA0-A822-4A4DFA59710C}
+		{B38648F5-87CA-4010-B694-57A0A8F8E41E} = {21CDAF08-9E8A-489A-8DCB-C545EFA41B37}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
