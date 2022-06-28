@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Fashion Boutique", "05.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Songs Queue", "06. Songs Queue\06. Songs Queue.csproj", "{82F0A5A3-64E4-4E75-8566-ADD9B72535CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Truck Tour", "07. Truck Tour\07. Truck Tour.csproj", "{355FF641-6749-432D-8803-EEADF1FE4CD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{82F0A5A3-64E4-4E75-8566-ADD9B72535CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82F0A5A3-64E4-4E75-8566-ADD9B72535CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82F0A5A3-64E4-4E75-8566-ADD9B72535CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355FF641-6749-432D-8803-EEADF1FE4CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355FF641-6749-432D-8803-EEADF1FE4CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355FF641-6749-432D-8803-EEADF1FE4CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355FF641-6749-432D-8803-EEADF1FE4CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{2BE0DBE6-C08A-4657-AD51-FEEB3592D398} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
 		{96D3A7B1-2569-4940-B396-CA386268D8EE} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
 		{82F0A5A3-64E4-4E75-8566-ADD9B72535CE} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
+		{355FF641-6749-432D-8803-EEADF1FE4CD1} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}

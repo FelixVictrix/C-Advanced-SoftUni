@@ -29,18 +29,24 @@ namespace _06._Songs_Queue
                         queueSongs.Dequeue();
                         break;
                     case "Add":
+
                         input.Remove(command);
                         var name = string.Join(" ",input);
                         var contains = queueSongs.Contains(name);
+
                         if (!contains)
                         {
                             queueSongs.Enqueue(name);
                             continue;
                         }
+
                         Console.WriteLine($"{name} is already contained!");
+
                         break;
                     case "Show":
+
                         Console.WriteLine(string.Join(", ", queueSongs));
+
                         break;
                 }
 
