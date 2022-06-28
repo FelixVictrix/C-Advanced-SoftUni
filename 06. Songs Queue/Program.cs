@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace _06._Songs_Queue
 {
@@ -19,16 +20,17 @@ namespace _06._Songs_Queue
             while (queueSongs.Count > 0)
             {
 
-                var input = Console.ReadLine().Split();
+                var input = Console.ReadLine().Split().ToList();
                 var command = input[0];
-
+ 
                 switch (command)
                 {
                     case "Play":
                         queueSongs.Dequeue();
                         break;
                     case "Add":
-                        var name = input.c
+                        input.Remove(command);
+                        var name = string.Join(" ",input);
                         var contains = queueSongs.Contains(name);
                         if (!contains)
                         {
