@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06!. Songs Queue", "06!. So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Balanced Parenthesis", "08. Balanced Parenthesis\08. Balanced Parenthesis.csproj", "{4B61AFCD-26B3-4B4C-AD05-3A00770A3D09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Simple Text Editor", "09. Simple Text Editor\09. Simple Text Editor.csproj", "{6B01475A-AF9E-48FC-A0B0-C0AFD58112BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{4B61AFCD-26B3-4B4C-AD05-3A00770A3D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B61AFCD-26B3-4B4C-AD05-3A00770A3D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B61AFCD-26B3-4B4C-AD05-3A00770A3D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B01475A-AF9E-48FC-A0B0-C0AFD58112BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B01475A-AF9E-48FC-A0B0-C0AFD58112BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B01475A-AF9E-48FC-A0B0-C0AFD58112BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B01475A-AF9E-48FC-A0B0-C0AFD58112BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +152,7 @@ Global
 		{355FF641-6749-432D-8803-EEADF1FE4CD1} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
 		{D07945B9-12E5-422D-9E5B-D8457F6F505F} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
 		{4B61AFCD-26B3-4B4C-AD05-3A00770A3D09} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
+		{6B01475A-AF9E-48FC-A0B0-C0AFD58112BC} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
