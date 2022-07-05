@@ -83,6 +83,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Snake Moves", "5. Snake 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5u. Snake Moves", "5u. Snake Moves\5u. Snake Moves.csproj", "{AFAFC82D-803B-461B-9153-38EFAB5F50ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Jagged Array Manipulator", "6. Jagged Array Manipulator\6. Jagged Array Manipulator.csproj", "{BA3DB802-2E31-4E5F-8CA8-9B4285ED08D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -229,6 +231,10 @@ Global
 		{AFAFC82D-803B-461B-9153-38EFAB5F50ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFAFC82D-803B-461B-9153-38EFAB5F50ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFAFC82D-803B-461B-9153-38EFAB5F50ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3DB802-2E31-4E5F-8CA8-9B4285ED08D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3DB802-2E31-4E5F-8CA8-9B4285ED08D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3DB802-2E31-4E5F-8CA8-9B4285ED08D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3DB802-2E31-4E5F-8CA8-9B4285ED08D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -269,6 +275,7 @@ Global
 		{2AC1A29A-FE18-4D4D-8E67-3189E9CEBF89} = {7A82B11F-D8D9-407A-ACD9-76FB975F9EEC}
 		{7A07DA06-593B-4CD1-9388-FA0A2AA7A690} = {7A82B11F-D8D9-407A-ACD9-76FB975F9EEC}
 		{AFAFC82D-803B-461B-9153-38EFAB5F50ED} = {7A82B11F-D8D9-407A-ACD9-76FB975F9EEC}
+		{BA3DB802-2E31-4E5F-8CA8-9B4285ED08D4} = {7A82B11F-D8D9-407A-ACD9-76FB975F9EEC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
