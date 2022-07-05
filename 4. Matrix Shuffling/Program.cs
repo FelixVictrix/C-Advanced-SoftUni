@@ -21,6 +21,7 @@ namespace _4._Matrix_Shuffling
             {
 
                 string[] command = input.Split();
+
                 if (command.Length != 5)
                 {
                     Console.WriteLine("Invalid input!");
