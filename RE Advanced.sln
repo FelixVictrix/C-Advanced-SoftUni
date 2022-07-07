@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Largest 3 Numbers", "03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Product Shop", "04. Product Shop\04. Product Shop.csproj", "{40AAE7E9-7BB8-432F-9C20-00386065E760}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Cities by Continent and Country", "05. Cities by Continent and Country\05. Cities by Continent and Country.csproj", "{63788C78-6282-4DE3-9085-2CF25BD5A80D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{40AAE7E9-7BB8-432F-9C20-00386065E760}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AAE7E9-7BB8-432F-9C20-00386065E760}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AAE7E9-7BB8-432F-9C20-00386065E760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63788C78-6282-4DE3-9085-2CF25BD5A80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63788C78-6282-4DE3-9085-2CF25BD5A80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63788C78-6282-4DE3-9085-2CF25BD5A80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63788C78-6282-4DE3-9085-2CF25BD5A80D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -313,6 +319,7 @@ Global
 		{4F84FB26-1A6C-4239-AE71-CB405096571F} = {4352414B-4417-47AB-A803-AE40230DA2EC}
 		{8D414316-01D4-41B4-AE88-4D62E515C744} = {4352414B-4417-47AB-A803-AE40230DA2EC}
 		{40AAE7E9-7BB8-432F-9C20-00386065E760} = {4352414B-4417-47AB-A803-AE40230DA2EC}
+		{63788C78-6282-4DE3-9085-2CF25BD5A80D} = {4352414B-4417-47AB-A803-AE40230DA2EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
