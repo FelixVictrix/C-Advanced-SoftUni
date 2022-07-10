@@ -89,15 +89,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Knight Game", "7. Knight
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Sets and Dictionaries Advanced - Lab", "07. Sets and Dictionaries Advanced - Lab", "{4352414B-4417-47AB-A803-AE40230DA2EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Count Same Values in Array", "01. Count Same Values in Array\01. Count Same Values in Array.csproj", "{A6AE9102-5C99-4B87-B952-08FF130BB3D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Count Same Values in Array", "01. Count Same Values in Array\01. Count Same Values in Array.csproj", "{A6AE9102-5C99-4B87-B952-08FF130BB3D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Average Student Grades", "02. Average Student Grades\02. Average Student Grades.csproj", "{4F84FB26-1A6C-4239-AE71-CB405096571F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Average Student Grades", "02. Average Student Grades\02. Average Student Grades.csproj", "{4F84FB26-1A6C-4239-AE71-CB405096571F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Largest 3 Numbers", "03. Largest 3 Numbers\03. Largest 3 Numbers.csproj", "{8D414316-01D4-41B4-AE88-4D62E515C744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Largest 3 Numbers", "03. Largest 3 Numbers\03. Largest 3 Numbers.csproj", "{8D414316-01D4-41B4-AE88-4D62E515C744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Product Shop", "04. Product Shop\04. Product Shop.csproj", "{40AAE7E9-7BB8-432F-9C20-00386065E760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Product Shop", "04. Product Shop\04. Product Shop.csproj", "{40AAE7E9-7BB8-432F-9C20-00386065E760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Cities by Continent and Country", "05. Cities by Continent and Country\05. Cities by Continent and Country.csproj", "{63788C78-6282-4DE3-9085-2CF25BD5A80D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Cities by Continent and Country", "05. Cities by Continent and Country\05. Cities by Continent and Country.csproj", "{63788C78-6282-4DE3-9085-2CF25BD5A80D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Record Unique Names", "06. Record Unique Names\06. Record Unique Names.csproj", "{3CFAEFEF-467E-4897-AD19-B66ABC4711FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Parking Lot", "07. Parking Lot\07. Parking Lot.csproj", "{57734838-B4A8-40AE-B46C-89C698782E8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +277,14 @@ Global
 		{63788C78-6282-4DE3-9085-2CF25BD5A80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63788C78-6282-4DE3-9085-2CF25BD5A80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63788C78-6282-4DE3-9085-2CF25BD5A80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFAEFEF-467E-4897-AD19-B66ABC4711FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFAEFEF-467E-4897-AD19-B66ABC4711FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFAEFEF-467E-4897-AD19-B66ABC4711FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFAEFEF-467E-4897-AD19-B66ABC4711FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57734838-B4A8-40AE-B46C-89C698782E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57734838-B4A8-40AE-B46C-89C698782E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57734838-B4A8-40AE-B46C-89C698782E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57734838-B4A8-40AE-B46C-89C698782E8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -320,6 +332,8 @@ Global
 		{8D414316-01D4-41B4-AE88-4D62E515C744} = {4352414B-4417-47AB-A803-AE40230DA2EC}
 		{40AAE7E9-7BB8-432F-9C20-00386065E760} = {4352414B-4417-47AB-A803-AE40230DA2EC}
 		{63788C78-6282-4DE3-9085-2CF25BD5A80D} = {4352414B-4417-47AB-A803-AE40230DA2EC}
+		{3CFAEFEF-467E-4897-AD19-B66ABC4711FC} = {4352414B-4417-47AB-A803-AE40230DA2EC}
+		{57734838-B4A8-40AE-B46C-89C698782E8B} = {4352414B-4417-47AB-A803-AE40230DA2EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
