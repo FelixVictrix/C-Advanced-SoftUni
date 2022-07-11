@@ -22,16 +22,8 @@ namespace _02._Sets_of_Elements
 
         static void Checker(HashSet<int> firstSet, HashSet<int> secondSet)
         {
-            List<int> list = new List<int>();
-
-            foreach (int item in firstSet)
-            {
-                if (secondSet.Contains(item))
-                {
-                    list.Add(item);
-                }
-            }
-            Console.WriteLine(string.Join(" ",list));
+            firstSet.IntersectWith(firstSet);
+            Console.WriteLine(string.Join(" ", firstSet));
         }
 
         static HashSet<int> FillSet(HashSet<int> table, int lenght)
