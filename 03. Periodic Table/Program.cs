@@ -10,14 +10,14 @@ namespace _03._Periodic_Table
         {
 
             var lenght = int.Parse(Console.ReadLine());
-            HashSet<string> table = new HashSet<string>();
+            SortedSet<string> table = new SortedSet<string>();
 
             SetTable(table, lenght);
-            table.OrderBy(x => x).ToList().ForEach(x => Console.Write($"{x} "));
+            table.ToList().ForEach(x => Console.Write($"{x} "));
 
         }
 
-        static HashSet<string> SetTable(HashSet<string> table, int lenght)
+        static SortedSet<string> SetTable(SortedSet<string> table, int lenght)
         {
             for (int i = 0; i < lenght; i++)
             {

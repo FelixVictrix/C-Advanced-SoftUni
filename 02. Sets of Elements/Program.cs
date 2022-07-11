@@ -22,7 +22,7 @@ namespace _02._Sets_of_Elements
 
         static void Checker(HashSet<int> firstSet, HashSet<int> secondSet)
         {
-            firstSet.IntersectWith(firstSet);
+            firstSet.IntersectWith(secondSet);
             Console.WriteLine(string.Join(" ", firstSet));
         }
 
