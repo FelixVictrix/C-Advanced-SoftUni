@@ -28,14 +28,20 @@ namespace _06._Wardrobe
                 Console.WriteLine($"{kvp.Key} clothes:");
                 foreach (var item in kvp.Value)
                 {
-                    if (color == kvp.Key && cloth == item.Key)
-                    {
-                        Console.WriteLine($"* {item.Key} - {item.Value} (found!)");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"* {item.Key} - {item.Value}");
-                    }
+                    var isFound = color == kvp.Key && cloth == item.Key
+                        ? $"* {item.Key} - {item.Value} (found!)"
+                        : $"* {item.Key} - {item.Value}";
+                    Console.WriteLine(isFound);
+
+                    //if (color == kvp.Key && cloth == item.Key)
+                    //{
+                    //    Console.WriteLine($"* {item.Key} - {item.Value} (found!)");
+                    //}
+                    //else
+                    //{
+                    //    Console.WriteLine($"* {item.Key} - {item.Value}");
+                    //}
+                    
                 }
             }
         }
