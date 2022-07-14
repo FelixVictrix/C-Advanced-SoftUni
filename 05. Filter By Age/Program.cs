@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace _05._Filter_By_Age
 {
@@ -7,39 +8,66 @@ namespace _05._Filter_By_Age
     {
         static void Main(string[] args)
         {
-           
+
             var lenght = int.Parse(Console.ReadLine());
-            Dictionary<string,int> person = new Dictionary<string, int>();
-            AddDiction(person,lenght);
+            List<Students> list = new List<Students>();
+            AddList(list, lenght);
 
             var condition = Console.ReadLine();
-            var age = Console.ReadLine();
+            var age = int.Parse(Console.ReadLine());
             var format = Console.ReadLine();
 
-            Print(condition,age,format);
+            if (condition == "older")
+            {
+                list = list.Where(s => s.Age >= age).Select(x => x).ToList();
+            }
+            else
+            {
+                list = list.Where(s => s.Age < age).Select(x => x).ToList();
+            }
+            if (format == "name age")
+            {
+                foreach (var item in list)
+                {
+                    Console.WriteLine($"{item.Name} - {item.Age}");
+                }
+            }
+            else if (format == "name")
+            {
+                foreach (var item in list)
+                {
+                    Console.WriteLine($"{item.Name}");
+                }
+            }
+            else if (format == "age")
+            {
+                foreach (var item in list)
+                {
+                    Console.WriteLine($"{item.Age}");
+                }
+            }
 
         }
 
-        static void Print(string condition, string age, string format)
-        {
-            throw new NotImplementedException();
-        }
-
-        static Dictionary<string, int> AddDiction(Dictionary<string, int> person, int lenght)
+        static List<Students> AddList(List<Students> list, int lenght)
         {
             for (int i = 0; i < lenght; i++)
             {
-                var input = Console.ReadLine().Split(", ",StringSplitOptions.RemoveEmptyEntries);
+                var input = Console.ReadLine().Split(", ", StringSplitOptions.RemoveEmptyEntries);
                 var name = input[0];
                 var age = int.Parse(input[1]);
-
-                if (!person.ContainsKey(name))
-                {
-                    person.Add(name,0);
-                }
-                person[name] = age;
+                Students students = new Students();
+                students.Name = name;
+                students.Age = age;
+                list.Add(students);
             }
-            return person;
+            return list;
+        }
+
+        class Students
+        {
+            public string Name { get; set; }
+            public int Age { get; set; }
         }
     }
 }

@@ -119,19 +119,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Count Symbols", "05. Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Wardrobe", "06. Wardrobe\06. Wardrobe.csproj", "{5BB61BE1-6A18-423C-9063-C44032272876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. The V-Logger", "07. The V-Logger\07. The V-Logger.csproj", "{18FC49C4-6920-4B63-8526-6D1D895C9B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. The V-Logger", "07. The V-Logger\07. The V-Logger.csproj", "{18FC49C4-6920-4B63-8526-6D1D895C9B9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Functional Programming - Lab", "09. Functional Programming - Lab", "{6039FEB6-C7DB-46B6-9C46-227DF740D0CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sort Even Numbers", "01. Sort Even Numbers\01. Sort Even Numbers.csproj", "{97EA3CAE-3C4A-4A51-9C64-54FFB64E5AE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Sort Even Numbers", "01. Sort Even Numbers\01. Sort Even Numbers.csproj", "{97EA3CAE-3C4A-4A51-9C64-54FFB64E5AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sum Numbers", "02. Sum Numbers\02. Sum Numbers.csproj", "{C4CC9131-FC6B-4EBF-BAB0-8BE21D7AF893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Sum Numbers", "02. Sum Numbers\02. Sum Numbers.csproj", "{C4CC9131-FC6B-4EBF-BAB0-8BE21D7AF893}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Count Uppercase Words", "03. Count Uppercase Words\03. Count Uppercase Words.csproj", "{6D7E4D93-6835-42F4-B091-7A007CC1296F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Count Uppercase Words", "03. Count Uppercase Words\03. Count Uppercase Words.csproj", "{6D7E4D93-6835-42F4-B091-7A007CC1296F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Add VAT", "04. Add VAT\04. Add VAT.csproj", "{976E61AD-4D13-4014-A647-C3AEBB370464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Add VAT", "04. Add VAT\04. Add VAT.csproj", "{976E61AD-4D13-4014-A647-C3AEBB370464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Filter By Age", "05. Filter By Age\05. Filter By Age.csproj", "{EEAC04B0-5DC6-46E0-8ACA-48D8C14F22DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Filter By Age", "05. Filter By Age\05. Filter By Age.csproj", "{EEAC04B0-5DC6-46E0-8ACA-48D8C14F22DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Functional Programming - Exercise", "10. Functional Programming - Exercise", "{BECB0FE9-A48A-4231-84F8-7E4EAA771824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Action Print", "01. Action Print\01. Action Print.csproj", "{A4417E06-FDF7-4436-A53B-B6AF41BC7B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Knights of Honor", "02. Knights of Honor\02. Knights of Honor.csproj", "{7DCFEB95-2B9A-40D6-88BC-E8B6043A0022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Custom Min Function", "03. Custom Min Function\03. Custom Min Function.csproj", "{AF52A841-3DC2-455B-A13B-8CC5D0F9A0A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -367,6 +375,18 @@ Global
 		{EEAC04B0-5DC6-46E0-8ACA-48D8C14F22DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEAC04B0-5DC6-46E0-8ACA-48D8C14F22DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEAC04B0-5DC6-46E0-8ACA-48D8C14F22DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4417E06-FDF7-4436-A53B-B6AF41BC7B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4417E06-FDF7-4436-A53B-B6AF41BC7B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4417E06-FDF7-4436-A53B-B6AF41BC7B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4417E06-FDF7-4436-A53B-B6AF41BC7B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCFEB95-2B9A-40D6-88BC-E8B6043A0022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCFEB95-2B9A-40D6-88BC-E8B6043A0022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCFEB95-2B9A-40D6-88BC-E8B6043A0022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCFEB95-2B9A-40D6-88BC-E8B6043A0022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF52A841-3DC2-455B-A13B-8CC5D0F9A0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF52A841-3DC2-455B-A13B-8CC5D0F9A0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF52A841-3DC2-455B-A13B-8CC5D0F9A0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF52A841-3DC2-455B-A13B-8CC5D0F9A0A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -429,6 +449,9 @@ Global
 		{6D7E4D93-6835-42F4-B091-7A007CC1296F} = {6039FEB6-C7DB-46B6-9C46-227DF740D0CE}
 		{976E61AD-4D13-4014-A647-C3AEBB370464} = {6039FEB6-C7DB-46B6-9C46-227DF740D0CE}
 		{EEAC04B0-5DC6-46E0-8ACA-48D8C14F22DF} = {6039FEB6-C7DB-46B6-9C46-227DF740D0CE}
+		{A4417E06-FDF7-4436-A53B-B6AF41BC7B0D} = {BECB0FE9-A48A-4231-84F8-7E4EAA771824}
+		{7DCFEB95-2B9A-40D6-88BC-E8B6043A0022} = {BECB0FE9-A48A-4231-84F8-7E4EAA771824}
+		{AF52A841-3DC2-455B-A13B-8CC5D0F9A0A8} = {BECB0FE9-A48A-4231-84F8-7E4EAA771824}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
