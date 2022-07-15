@@ -18,7 +18,7 @@ namespace _05._Applied_Arithmetics
                 {
                     x[i] += 1;
                 }
-
+                
             };
             Action<List<int>> subNum = x
                 =>
