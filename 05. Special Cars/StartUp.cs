@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CarManufacturer
+namespace SpecialCars
 {
     public class StartUp
     {

@@ -1,11 +1,11 @@
-﻿namespace CarManufacturer
+﻿namespace SpecialCars
 {
     public class Engine
     {
         public Engine(int horsePower, double cubicCapacity)
         {
-            this.HorsePower = horsePower;
-            this.CubicCapacity = cubicCapacity;
+            HorsePower = horsePower;
+            CubicCapacity = cubicCapacity;
         }
 
         public int HorsePower { get; set; }

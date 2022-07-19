@@ -1,7 +1,6 @@
-﻿using System.Linq;
-using System.Text;
+﻿using System.Text;
 
-namespace CarManufacturer
+namespace SpecialCars
 {
     public class Car
     {
@@ -17,22 +16,22 @@ namespace CarManufacturer
         public Car(string make, string model, int year)
             : this()
         {
-            this.Make = make;
-            this.Model = model;
-            this.Year = year;
+            Make = make;
+            Model = model;
+            Year = year;
 
         }
         public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption)
             : this(make, model, year)
         {
             FuelQuantity = fuelQuantity;
-            this.FuelConsumption = fuelConsumption;
+            FuelConsumption = fuelConsumption;
         }
         public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption, Engine engine, Tire[] tires)
             : this(make, model, year, fuelQuantity, fuelConsumption)
         {
-            this.Engine = engine;
-            this.Tires = tires;
+            Engine = engine;
+            Tires = tires;
         }
 
         public string Make { get; set; }
@@ -45,9 +44,9 @@ namespace CarManufacturer
 
         public void Drive(double distance)
         {
-            if (FuelQuantity - ((distance * FuelConsumption)/100) >= 0)
+            if (FuelQuantity - distance * FuelConsumption / 100 >= 0)
             {
-                FuelQuantity -= ((distance * FuelConsumption) / 100);
+                FuelQuantity -= distance * FuelConsumption / 100;
             }
             else
             {
@@ -57,17 +56,17 @@ namespace CarManufacturer
         public string WhoAmI()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"Make: {this.Make}");
-            sb.AppendLine($"Model: {this.Model}");
-            sb.AppendLine($"Year: {this.Year}");
-            sb.AppendLine($"Engine: {this.Engine.HorsePower}");
-            sb.AppendLine($"Fuel: {this.FuelQuantity}");
-            
+            sb.AppendLine($"Make: {Make}");
+            sb.AppendLine($"Model: {Model}");
+            sb.AppendLine($"Year: {Year}");
+            sb.AppendLine($"Engine: {Engine.HorsePower}");
+            sb.AppendLine($"Fuel: {FuelQuantity}");
+
             //foreach (var item in Tires)
             //{
             //    sb.AppendLine($"Tires: {item.Pressure} , {item.Year}");
             //}
-            
+
 
             return sb.ToString();
         }

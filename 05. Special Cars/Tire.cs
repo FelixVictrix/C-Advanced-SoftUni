@@ -1,4 +1,4 @@
-﻿namespace CarManufacturer
+﻿namespace SpecialCars
 {
    public class Tire
     {
