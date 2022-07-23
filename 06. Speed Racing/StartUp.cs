@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace _06._Speed_Racing
+namespace SpeedRacing
 {
     public class StartUp
     {

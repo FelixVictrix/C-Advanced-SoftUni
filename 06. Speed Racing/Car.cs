@@ -1,13 +1,13 @@
-﻿namespace _06._Speed_Racing
+﻿namespace SpeedRacing
 {
     public class Car
     {
         public Car(string model, double fuelAmount, double fuelConsumptionPerKm, double travelledDistance)
         {
-            this.Model = model;
-            this.FuelAmount = fuelAmount;
-            this.FuelConsumptionPerKilometer = fuelConsumptionPerKm;
-            this.TravelledDistance = travelledDistance;
+            Model = model;
+            FuelAmount = fuelAmount;
+            FuelConsumptionPerKilometer = fuelConsumptionPerKm;
+            TravelledDistance = travelledDistance;
         }
 
         public string Model { get; set; }
@@ -17,10 +17,10 @@
 
         public void Drive(double distance)
         {
-            if (this.FuelAmount - distance * this.FuelConsumptionPerKilometer >= 0)
+            if (FuelAmount - distance * FuelConsumptionPerKilometer >= 0)
             {
-                this.FuelAmount -= distance * this.FuelConsumptionPerKilometer;
-                this.TravelledDistance += distance;
+                FuelAmount -= distance * FuelConsumptionPerKilometer;
+                TravelledDistance += distance;
             }
             else
             {

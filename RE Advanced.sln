@@ -165,11 +165,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12. Defining Classes - Exer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Define a Class Person", "01. Define a Class Person", "{B403B7E6-BD2C-4ACE-B94D-691FC6E4ADAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiningClasses", "DefiningClasses\DefiningClasses.csproj", "{3098D4F4-A521-424F-A94F-71D7DFCC2CB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefiningClasses", "DefiningClasses\DefiningClasses.csproj", "{3098D4F4-A521-424F-A94F-71D7DFCC2CB2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Speed Racing", "06. Speed Racing", "{CC2D56E4-B48D-4B67-8CDF-0B52D9000D0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Speed Racing", "06. Speed Racing\06. Speed Racing.csproj", "{42A1F798-7F8E-4E0C-AFFC-6761AC9D4E04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Speed Racing", "06. Speed Racing\06. Speed Racing.csproj", "{42A1F798-7F8E-4E0C-AFFC-6761AC9D4E04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15. Implementing Linked List", "15. Implementing Linked List", "{CF9F55D7-83D6-4997-AA17-0D867D3095FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDoublyLinkedList", "Implementing Linked List\CustomDoublyLinkedList.csproj", "{F01A6A92-BF35-4962-A2A3-950707576FC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -461,6 +465,10 @@ Global
 		{42A1F798-7F8E-4E0C-AFFC-6761AC9D4E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42A1F798-7F8E-4E0C-AFFC-6761AC9D4E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42A1F798-7F8E-4E0C-AFFC-6761AC9D4E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01A6A92-BF35-4962-A2A3-950707576FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01A6A92-BF35-4962-A2A3-950707576FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01A6A92-BF35-4962-A2A3-950707576FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01A6A92-BF35-4962-A2A3-950707576FC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -539,6 +547,7 @@ Global
 		{3098D4F4-A521-424F-A94F-71D7DFCC2CB2} = {B403B7E6-BD2C-4ACE-B94D-691FC6E4ADAE}
 		{CC2D56E4-B48D-4B67-8CDF-0B52D9000D0D} = {FB32ACA9-D4AD-41EA-8D18-642FC25692A4}
 		{42A1F798-7F8E-4E0C-AFFC-6761AC9D4E04} = {CC2D56E4-B48D-4B67-8CDF-0B52D9000D0D}
+		{F01A6A92-BF35-4962-A2A3-950707576FC4} = {CF9F55D7-83D6-4997-AA17-0D867D3095FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
