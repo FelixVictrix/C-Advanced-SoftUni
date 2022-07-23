@@ -7,7 +7,7 @@ namespace CustomDoublyLinkedList
         static void Main(string[] args)
         {
            
-            var list = new DoublyLinkedList();
+            var list = new DoublyLinkedList<int>();
 
             list.AddFirst(3);
             // 3

@@ -2,10 +2,10 @@
 
 namespace CustomDoublyLinkedList
 {
-    public class DoublyLinkedList
+    public class DoublyLinkedList<T>
     {
-        private LinkedListItem first;
-        private LinkedListItem last;
+        private LinkedListItem<T> first;
+        private LinkedListItem<T> last;
 
         public int Count
         {
@@ -23,9 +23,9 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public void AddFirst(int element)
+        public void AddFirst(T element)
         {
-            var newItem = new LinkedListItem(element);
+            var newItem = new LinkedListItem<T>(element);
 
             if (first == null)
             {
@@ -40,9 +40,9 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public void AddLast(int element)
+        public void AddLast(T element)
         {
-            var newItem = new LinkedListItem(element);
+            var newItem = new LinkedListItem<T>(element);
 
             if (first == null)
             {
@@ -57,11 +57,11 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public int RemoveFirst()
+        public T RemoveFirst()
         {
             if (first == null)
             {
-                return 0;
+                throw new InvalidOperationException("Linked list empty");
             }
 
             var currFstVavlue = first.Value;
@@ -80,11 +80,11 @@ namespace CustomDoublyLinkedList
             return currFstVavlue;
         }
 
-        public int RemoveLast()
+        public T RemoveLast()
         {
             if (last == null)
             {
-                return 0;
+                throw new InvalidOperationException("Linked list empty");
             }
 
             var currLstVavlue = last.Value;
@@ -103,7 +103,7 @@ namespace CustomDoublyLinkedList
             return currLstVavlue;
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             var current = first;
 
@@ -114,9 +114,9 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public int[] ToArray()
+        public T[] ToArray()
         {
-            var array = new int[Count];
+            var array = new T[Count];
             var index = 0;
             var current = first;
 

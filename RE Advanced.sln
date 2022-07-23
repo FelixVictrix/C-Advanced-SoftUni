@@ -173,7 +173,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Speed Racing", "06. Spe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15. Implementing Linked List", "15. Implementing Linked List", "{CF9F55D7-83D6-4997-AA17-0D867D3095FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDoublyLinkedList", "Implementing Linked List\CustomDoublyLinkedList.csproj", "{F01A6A92-BF35-4962-A2A3-950707576FC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomDoublyLinkedList", "Implementing Linked List\CustomDoublyLinkedList.csproj", "{F01A6A92-BF35-4962-A2A3-950707576FC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16. mplementing Stack and Queue", "16. mplementing Stack and Queue", "{5DB368FC-7422-4E68-8861-10932349D48B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementing Stack and Queue", "Implementing Stack and Queue\Implementing Stack and Queue.csproj", "{D5D3BC92-4782-4F46-856F-0DFF2B0DF1E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17. Generics - Lab", "17. Generics - Lab", "{1E85E305-22A1-454A-9F70-E1CA3C7B36FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Box", "01. Box\01. Box.csproj", "{49A359F0-C6F6-4B89-909D-C3A83B8D7D73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -469,6 +477,14 @@ Global
 		{F01A6A92-BF35-4962-A2A3-950707576FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F01A6A92-BF35-4962-A2A3-950707576FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F01A6A92-BF35-4962-A2A3-950707576FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D3BC92-4782-4F46-856F-0DFF2B0DF1E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D3BC92-4782-4F46-856F-0DFF2B0DF1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D3BC92-4782-4F46-856F-0DFF2B0DF1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D3BC92-4782-4F46-856F-0DFF2B0DF1E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A359F0-C6F6-4B89-909D-C3A83B8D7D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A359F0-C6F6-4B89-909D-C3A83B8D7D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A359F0-C6F6-4B89-909D-C3A83B8D7D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A359F0-C6F6-4B89-909D-C3A83B8D7D73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -548,6 +564,8 @@ Global
 		{CC2D56E4-B48D-4B67-8CDF-0B52D9000D0D} = {FB32ACA9-D4AD-41EA-8D18-642FC25692A4}
 		{42A1F798-7F8E-4E0C-AFFC-6761AC9D4E04} = {CC2D56E4-B48D-4B67-8CDF-0B52D9000D0D}
 		{F01A6A92-BF35-4962-A2A3-950707576FC4} = {CF9F55D7-83D6-4997-AA17-0D867D3095FC}
+		{D5D3BC92-4782-4F46-856F-0DFF2B0DF1E4} = {5DB368FC-7422-4E68-8861-10932349D48B}
+		{49A359F0-C6F6-4B89-909D-C3A83B8D7D73} = {1E85E305-22A1-454A-9F70-E1CA3C7B36FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
