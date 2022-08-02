@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace _01a._Generic_Box_of_String
+namespace GenericBoxofString
 {
     public class Box<T>
     {
@@ -18,9 +18,9 @@ namespace _01a._Generic_Box_of_String
 
             foreach (var item in list)
             {
-                sb.AppendLine($"System.String: {item}");
+                sb.AppendLine($"{typeof(T)}: {item}");
             }
-            return sb.ToString().TrimEnd();;
+            return sb.ToString().TrimEnd(); ;
         }
 
     }

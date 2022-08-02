@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Linq;
 
-namespace GenericBoxofString
+namespace GenericSwapMethodString
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
             var lenght = int.Parse(Console.ReadLine());
+
             var box = new Box<int>();
 
             for (int i = 0; i < lenght; i++)
@@ -15,6 +18,10 @@ namespace GenericBoxofString
                 var input = int.Parse(Console.ReadLine());
                 box.Add(input);
             }
+
+            var index = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            box.Swap(index[0], index[1]);
+
             Console.WriteLine(box.ToString());
         }
     }
