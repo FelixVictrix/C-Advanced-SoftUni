@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{69504686-C858-4F38-B668-FD3E4C05A7B8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Stacks and Queues - Lab", "03. Stacks and Queues - Lab", "{27893AF9-B6A9-4CA0-A822-4A4DFA59710C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Reverse a String", "1. Reverse a String\1. Reverse a String.csproj", "{EC370A46-7181-4EF9-8850-FC75E3F7954D}"
@@ -193,11 +191,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18. Generics - Exercise", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Generic Box of String", "01. Generic Box of String\01. Generic Box of String.csproj", "{04D46ECE-1DB6-475D-BEB6-11BF182C90D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericBoxofString", "01a. Generic Box of String\GenericBoxofString.csproj", "{0B5353CC-74BF-49E1-B0B4-F87852F6FD95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericBoxofString", "01a. Generic Box of String\GenericBoxofString.csproj", "{0B5353CC-74BF-49E1-B0B4-F87852F6FD95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSwapMethodString", "GenericSwapMethodString\GenericSwapMethodString.csproj", "{00BCA935-AC10-4820-82BC-AC65C1C153B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericSwapMethodString", "GenericSwapMethodString\GenericSwapMethodString.csproj", "{00BCA935-AC10-4820-82BC-AC65C1C153B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSwapMethodIntegers", "GenericSwapMethodIntegers\GenericSwapMethodIntegers.csproj", "{DE9BF82A-1DFD-4877-92AC-90D78585E88A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericSwapMethodIntegers", "GenericSwapMethodIntegers\GenericSwapMethodIntegers.csproj", "{DE9BF82A-1DFD-4877-92AC-90D78585E88A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericCountMethodString", "GenericCountMethodString\GenericCountMethodString.csproj", "{A573E400-9613-4C7F-8367-0E488D87B642}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,10 +205,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{69504686-C858-4F38-B668-FD3E4C05A7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69504686-C858-4F38-B668-FD3E4C05A7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69504686-C858-4F38-B668-FD3E4C05A7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69504686-C858-4F38-B668-FD3E4C05A7B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC370A46-7181-4EF9-8850-FC75E3F7954D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC370A46-7181-4EF9-8850-FC75E3F7954D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC370A46-7181-4EF9-8850-FC75E3F7954D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -529,6 +525,10 @@ Global
 		{DE9BF82A-1DFD-4877-92AC-90D78585E88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE9BF82A-1DFD-4877-92AC-90D78585E88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE9BF82A-1DFD-4877-92AC-90D78585E88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A573E400-9613-4C7F-8367-0E488D87B642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A573E400-9613-4C7F-8367-0E488D87B642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A573E400-9613-4C7F-8367-0E488D87B642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A573E400-9613-4C7F-8367-0E488D87B642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -617,6 +617,7 @@ Global
 		{0B5353CC-74BF-49E1-B0B4-F87852F6FD95} = {5F5A61B6-4D19-4053-AF11-D9A6DA562659}
 		{00BCA935-AC10-4820-82BC-AC65C1C153B1} = {5F5A61B6-4D19-4053-AF11-D9A6DA562659}
 		{DE9BF82A-1DFD-4877-92AC-90D78585E88A} = {5F5A61B6-4D19-4053-AF11-D9A6DA562659}
+		{A573E400-9613-4C7F-8367-0E488D87B642} = {5F5A61B6-4D19-4053-AF11-D9A6DA562659}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
