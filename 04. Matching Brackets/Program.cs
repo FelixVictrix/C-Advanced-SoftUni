@@ -21,11 +21,12 @@ namespace _04._Matching_Brackets
                 else if (input[i] == ')')
                 {
                     int startIndex = stack.Peek();
-                    int lenght = i - stack.Pop() + 1;
-                    string print = input.Substring(startIndex, lenght);
+                    int lenght = i - stack.Pop();
+                    string print = input.Substring(startIndex, lenght + 1);
                     Console.WriteLine(print);
                 }
             }
+
 
         }
     }
