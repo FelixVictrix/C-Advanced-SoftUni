@@ -29,7 +29,7 @@ namespace _3._Simple_Calculator
                 {
                     sum = int.Parse(action);
                 }
-                
+
             }
             Console.WriteLine(sum);
         }
