@@ -15,7 +15,7 @@ namespace _05._Print_Even_Numbers
 
             Queue<int> queue = new Queue<int>(array);
 
-            Console.Write(string.Join(", ", queue.Select(x => x % 2 == 0).ToArray()));
+            Console.Write(string.Join(", ", queue.Where(x => x % 2 == 0)));
 
         }
     }
