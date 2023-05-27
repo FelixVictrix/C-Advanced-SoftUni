@@ -233,7 +233,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003. Maximum and Minimum El
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004. Fast Food", "004. Fast Food\004. Fast Food.csproj", "{E0607023-67C2-4FEB-A0A5-9A6FD2668F00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005. Fashion Boutique", "005. Fashion Boutique\005. Fashion Boutique.csproj", "{808334DE-7967-464A-A302-2353DED4283A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005. Fashion Boutique", "005. Fashion Boutique\005. Fashion Boutique.csproj", "{808334DE-7967-464A-A302-2353DED4283A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006. Songs Queue", "006. Songs Queue\006. Songs Queue.csproj", "{5C68107D-0A97-4CD6-BABC-3DEAD13438B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -633,6 +635,10 @@ Global
 		{808334DE-7967-464A-A302-2353DED4283A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{808334DE-7967-464A-A302-2353DED4283A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{808334DE-7967-464A-A302-2353DED4283A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C68107D-0A97-4CD6-BABC-3DEAD13438B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C68107D-0A97-4CD6-BABC-3DEAD13438B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C68107D-0A97-4CD6-BABC-3DEAD13438B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C68107D-0A97-4CD6-BABC-3DEAD13438B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -738,6 +744,7 @@ Global
 		{22C8C502-27FF-4205-9800-7437B1D10109} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
 		{E0607023-67C2-4FEB-A0A5-9A6FD2668F00} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
 		{808334DE-7967-464A-A302-2353DED4283A} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
+		{5C68107D-0A97-4CD6-BABC-3DEAD13438B3} = {C3FC6A58-15DD-4F4F-89CD-2FFE50E3EF3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
