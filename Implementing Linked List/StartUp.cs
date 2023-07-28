@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace CustomDoublyLinkedList
+namespace Implementing_Linked_List
 {
     public class StartUp
     {
         static void Main(string[] args)
         {
-           
+
             var list = new DoublyLinkedList<int>();
 
             list.AddFirst(3);
@@ -27,7 +27,7 @@ namespace CustomDoublyLinkedList
             //1-2-3-4
             list.AddLast(5);
             //1-2-3-4-5
-            Console.WriteLine(string.Join(", ",list.ToArray()));
+            Console.WriteLine(string.Join(", ", list.ToArray()));
             //1, 2, 3, 4, 5
             list.ForEach(Console.WriteLine);
         }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CustomDoublyLinkedList
+namespace Implementing_Linked_List
 {
     public class DoublyLinkedList<T>
     {
@@ -14,7 +14,7 @@ namespace CustomDoublyLinkedList
                 var count = 0;
                 var currElement = first;
 
-                while (currElement != null )
+                while (currElement != null)
                 {
                     count++;
                     currElement = currElement.Next;
@@ -109,7 +109,7 @@ namespace CustomDoublyLinkedList
 
             while (current != null)
             {
-               action(current.Value);
+                action(current.Value);
                 current = current.Next;
             }
         }

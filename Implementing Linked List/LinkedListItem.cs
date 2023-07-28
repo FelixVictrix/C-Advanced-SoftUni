@@ -1,4 +1,4 @@
-﻿namespace CustomDoublyLinkedList
+﻿namespace Implementing_Linked_List
 {
     public class LinkedListItem<T>
     {

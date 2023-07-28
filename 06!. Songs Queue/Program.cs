@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ConsoleApp4
+namespace _06_._Songs_Queue
 {
     class Program
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace _5._Snake_Moves
+namespace _5u._Snake_Moves
 {
     class Program
     {
