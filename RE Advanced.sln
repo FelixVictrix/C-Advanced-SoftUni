@@ -243,9 +243,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Sum Matrix Elements", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001. Count Same Values in Array", "001. Count Same Values in Array\001. Count Same Values in Array.csproj", "{E32312A7-ADD5-4997-946D-C147864FF1D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002. Average Student Grades", "002. Average Student Grades\002. Average Student Grades.csproj", "{48F449D1-EC93-4EDF-97C1-B926DAF3382A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002. Average Student Grades", "002. Average Student Grades\002. Average Student Grades.csproj", "{48F449D1-EC93-4EDF-97C1-B926DAF3382A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002a. Average Student Grades", "002a. Average Student Grades\002a. Average Student Grades.csproj", "{74CDD9FC-13CD-422D-B4DF-67A2548C7BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002a. Average Student Grades", "002a. Average Student Grades\002a. Average Student Grades.csproj", "{74CDD9FC-13CD-422D-B4DF-67A2548C7BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003. Largest 3 Numbers", "003. Largest 3 Numbers\003. Largest 3 Numbers.csproj", "{6C79A158-D871-4DA0-AD9C-F525B9464459}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -669,6 +671,10 @@ Global
 		{74CDD9FC-13CD-422D-B4DF-67A2548C7BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74CDD9FC-13CD-422D-B4DF-67A2548C7BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74CDD9FC-13CD-422D-B4DF-67A2548C7BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C79A158-D871-4DA0-AD9C-F525B9464459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C79A158-D871-4DA0-AD9C-F525B9464459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C79A158-D871-4DA0-AD9C-F525B9464459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C79A158-D871-4DA0-AD9C-F525B9464459}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -780,6 +786,7 @@ Global
 		{E32312A7-ADD5-4997-946D-C147864FF1D6} = {4352414B-4417-47AB-A803-AE40230DA2EC}
 		{48F449D1-EC93-4EDF-97C1-B926DAF3382A} = {4352414B-4417-47AB-A803-AE40230DA2EC}
 		{74CDD9FC-13CD-422D-B4DF-67A2548C7BD5} = {4352414B-4417-47AB-A803-AE40230DA2EC}
+		{6C79A158-D871-4DA0-AD9C-F525B9464459} = {4352414B-4417-47AB-A803-AE40230DA2EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D8CFCB1-2AD9-4F32-B39E-3C47EEAFF97E}
