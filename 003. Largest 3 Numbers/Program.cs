@@ -11,14 +11,14 @@ namespace _003._Largest_3_Numbers
         static void Main(string[] args)
         {
 
-            var array = Console.ReadLine()
-                .Split(' ')
-                .Select(int.Parse)
-                .OrderByDescending(x => x)
-                .Take(3)
-                .ToArray();
+            //var array = Console.ReadLine()
+            //    .Split(' ')
+            //    .Select(int.Parse)
+            //    .OrderByDescending(x => x)
+            //    .Take(3)
+            //    .ToArray();
 
-            Console.WriteLine(string.Join(" ", array));
+            //Console.WriteLine(string.Join(" ", array));
 
             //var lenght = 3;
 
@@ -38,6 +38,34 @@ namespace _003._Largest_3_Numbers
             //{
             //    Console.WriteLine(array[i]);
             //}
+
+            Console.WriteLine("Enter a list of integers separated by spaces: ");
+            string input = Console.ReadLine();
+            int[] array;
+
+            try
+            {
+                array = input
+                    .Split(' ')
+                    .Select(int.Parse)
+                    .OrderByDescending(x => x)
+                    .Take(3)
+                    .ToArray();
+
+                if (array.Length == 0)
+                {
+                    Console.WriteLine("No valid integers entered.");
+                }
+                else
+                {
+                    Console.WriteLine("The largest integers:");
+                    Console.Write(string.Join(" ", array));
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Invalid input: Please enter valid integers separated by spaces.");
+            }
 
         }
     }
