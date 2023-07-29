@@ -17,7 +17,7 @@ namespace _002a._Average_Student_Grades
                 string[] input = Console.ReadLine().Split(' ');
                 string name = input[0];
                 decimal grade = decimal.Parse(input[1]);
-
+                Student
                 Student student = students.Find(x=> x.Name == name);
 
                 if (student == null)
