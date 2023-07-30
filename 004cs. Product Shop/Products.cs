@@ -7,6 +7,7 @@ namespace _004cs._Product_Shop
 
         public string Product { get; set; }
         public double Price { get; set; }
- 
+        public string ExpDate { get; set; }
+
     }
 }

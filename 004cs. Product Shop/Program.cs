@@ -38,7 +38,7 @@ namespace _004cs._Product_Shop
                 Console.WriteLine($"{shop.Key}->");
                 foreach (var items in shop.Value)
                 {
-                    Console.WriteLine($"Product: {items.Product}, Price: {items.Price}");
+                    Console.WriteLine($"Product: {items.Product}, Price: {items.Price}, Exp. Date: {items.ExpDate}");
                 }
             }
         }
@@ -49,6 +49,7 @@ namespace _004cs._Product_Shop
             Products currentItem = new Products();
             currentItem.Product = shopInfo[1];
             currentItem.Price = double.Parse(shopInfo[2]);
+            currentItem.ExpDate = shopInfo[3];
 
             if (!shopsList.ContainsKey(shopName))
             {
