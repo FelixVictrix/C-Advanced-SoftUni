@@ -45,18 +45,30 @@ namespace _005._Cities_by_Continent_and_Country
                 string country = input[1];
                 string city = input[2];
 
-                if (!continents.ContainsKey(continent))
+                //if (!continents.ContainsKey(continent))
+                //{
+                //    continents.Add(continent, new Dictionary<string, List<string>> { });
+                //}
+
+                //if (!continents[continent].ContainsKey(country))
+                //{
+                //    continents[continent].Add(country, new List<string>());
+                //}
+
+                //continents[continent][country].Add(city);
+
+                if (!continents.TryGetValue(continent, out var countries))
                 {
-                    continents.Add(continent, new Dictionary<string, List<string>> { });
+                    countries = new Dictionary<string, List<string>>();
+                    continents.Add(continent, countries);
                 }
 
-                if (!continents[continent].ContainsKey(country))
+                if (!countries.TryGetValue(country, out var cities))
                 {
-                    continents[continent].Add(country, new List<string>());
+                    cities = new List<string>();
+                    countries.Add(country, cities);
                 }
-
-                continents[continent][country].Add(city);
-
+                cities.Add(city);
             }
 
 
